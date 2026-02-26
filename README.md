@@ -1,38 +1,77 @@
-🎮 Java Game Suite
-Tic Tac Toe & Cows and Bulls (Swing GUI Application)
-📌 Overview
+Java Game Suite
+Desktop Multi-Game Application using Java Swing
+Project Overview
 
-Java Game Suite is a desktop-based multi-game application developed using Java Swing.
-It includes two interactive games: Tic Tac Toe and Cows and Bulls, with turn-based multiplayer logic and dynamic game switching.
+Java Game Suite is a GUI-based desktop application developed using Java Swing, integrating two interactive games: Tic Tac Toe and Cows and Bulls.
 
-🛠 Technologies Used
-
-Java
-
-Swing (GUI)
+The project demonstrates strong understanding of:
 
 Object-Oriented Programming
 
+Event-driven architecture
+
+Game state management
+
+Algorithmic problem-solving
+
+GUI design and user interaction
+
+Tech Stack
+
+Java
+
+Swing (GUI Framework)
+
+OOP Concepts
+
 Event Handling
 
-Data Structures (Set, Arrays)
+Data Structures (Arrays, Set, Random)
 
-🔥 Features
+Key Functionalities
+Tic Tac Toe
 
-Two-player Tic Tac Toe with win/draw detection
+Two-player turn-based gameplay
 
-Cows and Bulls with unique 4-digit number generation
+Win detection using predefined winning combinations
 
-Turn-based gameplay with attempt tracking
+Draw detection logic
 
-Dynamic UI resizing
+Dynamic restart and game switching
 
-Restart and game-switching options
+Interactive grid-based UI
 
-🚀 How to Run
+Cows and Bulls
+
+Random unique 4-digit number generation using LinkedHashSet
+
+Bulls calculation (correct digit, correct position)
+
+Cows calculation (correct digit, wrong position)
+
+Turn-based multiplayer logic
+
+Attempt tracking and game-over handling
+
+Secure input using JPasswordField
+
+Core Concepts Implemented
+
+State management and turn switching
+
+Win-check algorithm using 2D winning combinations
+
+Boolean flag tracking for bulls and cows logic
+
+Dynamic font resizing using ComponentListener
+
+Modular structure with inner class implementation
+
+How to Run
 javac GameSuiteApp.java
 java GameSuiteApp
-👩‍💻 Developed By
+Developer
 
 Alankrutha Reddy
 B.Tech – Artificial Intelligence & Machine Learning
+Aspiring Software Developer
